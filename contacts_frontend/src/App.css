@@ -1,13 +1,16 @@
 /* CSS Variables for Theme Management */
 :root {
   /* Light theme colors */
-  --bg-primary: #ffffff;
+  --bg-primary: #fff;
   --bg-secondary: #f8f9fa;
-  --text-primary: #282c34;
-  --text-secondary: #61dafb;
-  --border-color: #e9ecef;
-  --button-bg: #007bff;
+  --text-primary: #222;
+  --text-secondary: #888fa5;
+  --border-color: #e0e4ea;
+  --button-bg: var(--kavia-primary, #1976d2);
   --button-text: #ffffff;
+  --kavia-primary: #1976D2;
+  --kavia-secondary: #FFC107;
+  --kavia-accent: #388E3C;
 }
 
 [data-theme="dark"] {
